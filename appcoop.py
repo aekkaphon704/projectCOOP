@@ -163,4 +163,7 @@ with col_output:
         else:
             st.warning("ไม่สามารถโหลดโมเดลได้ครบถ้วน")
     else:
+
         st.info("กรุณากรอกข้อมูลด้านซ้ายและกดปุ่มเพื่อดูผลลัพธ์")
+    st.markdown("---") # เพิ่มเส้นคั่นเพื่อความสวยงาม
+st.write("CMU INTERNSHIP x AC R&D HAIER")
